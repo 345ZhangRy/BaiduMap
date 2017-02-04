@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
                 //动态生成一个view对象，用户在地图中显示InfoWindow
                 final InfoView infoView = new InfoView(getApplicationContext());
                 infoView.setBackgroundResource(R.drawable.button);
-                infoView.setTv1("1号车", 14, Color.GREEN);
+                infoView.setTv1("派得伟业1号车", 14, Color.GREEN);
                 infoView.setTv2("温度：20", 10, Color.RED);
                 infoView.setTv3("湿度：101", 10, Color.BLACK);
 
